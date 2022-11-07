@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(images/pattern-background-desktop.svg) fixed no-repeat top;
+    background-color:  hsl(225, 100%, 94%);
+}
+
+aside{
+    width: 350px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px  hsl(224, 23%, 55%);
+    margin-bottom: 1%;
+}
+
+aside > figure{
+    margin-bottom: 5%;
+}
+
+aside > figure img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+aside h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+aside h1 + p{
+    width: 80%;
+    margin: 3% auto;
+    text-align: center;
+    color:  gray;
+    font-size: 16px;
+}
+
+aside div{
+    background-color:  hsl(225, 100%, 98%);
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+aside div figure, aside div figure + p{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 1%;
+}
+
+aside div figure img{
+    border-radius: 50%;
+}
+
+aside div figure +p strong, aside div figure +p em{
+    display: block;
+}
+
+aside div figure + p strong{
+    font-family: cursive;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+aside div figure + p em{
+    color: gray;
+    font-style: normal;
+}
+
+aside div figure + p,  aside div figure + p + p{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+aside div figure +p +p{
+    position: absolute;
+    right: 5%;
+    top: 35%;
+    font-weight: bold;
+}
+
+aside div +p{
+    width: 80%;
+    margin: 5% auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 13px 6px  hsl(225, 100%, 94%);
+    padding: 2%;
+}
+
+aside div + p a{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+aside div + p + p{
+    text-align: center;
+    height: 50px;
+}
+
+aside div + p + p a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}

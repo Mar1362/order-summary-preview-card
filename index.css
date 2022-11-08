@@ -8,7 +8,7 @@ body{
     background-color:  hsl(225, 100%, 94%);
 }
 
-aside{
+main{
     width: 350px;
     margin: auto;
     margin-top: 100px;
@@ -18,23 +18,23 @@ aside{
     margin-bottom: 1%;
 }
 
-aside > figure{
+main > figure{
     margin-bottom: 5%;
 }
 
-aside > figure img{
+main > figure img{
     width: 100%;
     border-radius: 10px 10px 0 0;
 }
 
-aside h1{
+main h1{
     text-align: center;
     font-weight: bold;
     font-size: xx-large;
     font-family: cursive;
 }
 
-aside h1 + p{
+main h1 + p{
     width: 80%;
     margin: 3% auto;
     text-align: center;
@@ -42,7 +42,7 @@ aside h1 + p{
     font-size: 16px;
 }
 
-aside div{
+main div{
     background-color:  hsl(225, 100%, 98%);
     border-radius: 10px;
     width: 80%;
@@ -50,44 +50,44 @@ aside div{
     position: relative;
 }
 
-aside div figure, aside div figure + p{
+main div figure, main div figure + p{
     display: inline-block;
     vertical-align: middle;
     margin: 1%;
 }
 
-aside div figure img{
+main div figure img{
     border-radius: 50%;
 }
 
-aside div figure +p strong, aside div figure +p em{
+main div figure +p strong, main div figure +p em{
     display: block;
 }
 
-aside div figure + p strong{
+main div figure + p strong{
     font-family: cursive;
     font-weight: bold;
     margin-bottom: 1%;
 }
 
-aside div figure + p em{
+main div figure + p em{
     color: gray;
     font-style: normal;
 }
 
-aside div figure + p,  aside div figure + p + p{
+main div figure + p,  main div figure + p + p{
     display: inline-block;
     vertical-align: middle;
 }
 
-aside div figure +p +p{
+main div figure +p +p{
     position: absolute;
     right: 5%;
     top: 35%;
     font-weight: bold;
 }
 
-aside div +p{
+main div +p{
     width: 80%;
     margin: 5% auto;
     text-align: center;
@@ -97,18 +97,18 @@ aside div +p{
     padding: 2%;
 }
 
-aside div + p a{
+main div + p a{
     color: white;
     text-decoration: none;
     font-family: cursive;
 }
 
-aside div + p + p{
+main div + p + p{
     text-align: center;
     height: 50px;
 }
 
-aside div + p + p a{
+main div + p + p a{
     text-decoration: none;
     color: gray;
     font-weight: bold;

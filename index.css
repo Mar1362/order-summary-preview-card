@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    transition: all ease-out 0.45s;
 }
 
 body{
@@ -113,3 +114,12 @@ main div + p + p a{
     color: gray;
     font-weight: bold;
 }
+
+.box-hover-effect:hover  {
+    box-shadow: 0 0 15px black;
+}
+
+/* .text-hover-effect:hover {
+    text-shadow: 0 0 15px black;
+    font-size: 2.3em;
+} */
